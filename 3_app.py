@@ -59,7 +59,6 @@ input_data_scaled = scaler.transform(input_data)
 
 prediction = model.predict(input_data_scaled)
 prediction_proba = prediction[0][0]
-prediction_proba
 
 st.write(f'Curn probability: {prediction_proba:2f}')
 
