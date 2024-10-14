@@ -65,4 +65,4 @@ st.write(f'Curn probability: {prediction_proba:2f}')
 if prediction_proba > 0.5:
   st.write('The customer is likely to churn.')
 else:
-  st.write('The customer is not likely t churn.')
+  st.write('The customer is not likely to churn.')
